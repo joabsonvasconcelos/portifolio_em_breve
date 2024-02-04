@@ -143,6 +143,11 @@
   -webkit-user-select: none;
   touch-action: manipulation;
 }
+
+a {
+  text-decoration: none;
+}
+
 .ion {
   font-size: 1.8rem;
 
