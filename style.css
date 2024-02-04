@@ -92,7 +92,7 @@
     background: url('./img/bb.jpg');
     background-size: cover; 
     background-position: center; 
-    border-image: fill 0 linear-gradient(#0001,#000);
+    border-image: fill 0 linear-gradient(#0003,#000);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -113,7 +113,7 @@
   .right-column h1 {
     font-size: 7.3rem;
     color: white; 
-    text-shadow: black 0.2em 0.2em 0.4em;
+    text-shadow: black 0.1em 0.1em 0.2em;
     letter-spacing: .2rem;
     font-weight: 700;
     
