@@ -57,8 +57,11 @@
     border: 2px solid var(--bb-color-01);
     box-shadow: 0 0 0 2px var(--color-01);
 
+    
+
 }
-  
+
+
   
   .left-column h2 {
     margin: 2rem;
@@ -112,11 +115,12 @@
   }
   .right-column h1 {
     font-size: 7.3rem;
-    color: white; 
-    text-shadow: black 0.1em 0.1em 0.2em;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    -webkit-text-stroke-width: 0.1rem;
+    -webkit-text-stroke-color: #ffffff;
     letter-spacing: .2rem;
-    font-weight: 700;
-    
+    font-weight:var(--bb-color-01);
 }
 .right-column p {
   font-size: 2.3rem;
